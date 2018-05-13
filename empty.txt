@@ -1,2 +1,4 @@
 This folder is empty. I am still learning how to push files to github from my local computer.
-Meanwhile, i have not designed the coming soon page as of the time pushed this
+Meanwhile, i have not designed the coming soon page as of the time i pushed this text file to github. 
+I will work on the coming soon page and push it on monday 14th may, before 10 am. This should be the begining of my 
+github journey. #winks
