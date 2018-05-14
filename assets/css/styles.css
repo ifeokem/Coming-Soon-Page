@@ -1,23 +1,42 @@
+ *{
+ 	box-sizing: border-box;
+ }
+
+
  html, body {
             height: 100%;
             margin: 0;
             padding: 0;
-             background: url(../img/background.jpg);
              color: #F8F8F8;
+              z-index: 1;
+              overflow: hidden;
 
         }
         #container{
-        	 background: rgba(0, 0, 0, 0.8);
+        	 background: rgba(0, 10, 0, 0.7);
         	 bottom: 0;
         	 height: 100%;
+        	
         }
-        div{
-        	margin-right: auto;
-        	margin-left: auto;
+        .video-wrap{
+        	position: absolute;
+        	min-width: 100%;
+        	min-height: 100%;
+        	z-index: -1;       }
+        .video-wrap video{
+        	min-width: 100%;
+        	min-height: 100%;
         }
+        .contentdiv{
+        	position: absolute;
+        	top: 0;
+        	left: 0;
+        	height: 100%;
+        }
+       
         .btn{
         	background-color: #73BA37;
-			height: 60px;
+			height: 50px;
 			border: 1px solid green;
 			border-radius: 0px 10px 10px 0px;
 		    text-align: center;
@@ -82,7 +101,7 @@ input{
 	
 	font-family: courier;
 	font-weight: bold;
-	font-size: 3.5em;
+	font-size: 3.2em;
 	color: white;
 
 }
