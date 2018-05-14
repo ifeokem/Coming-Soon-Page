@@ -18,8 +18,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("countDown").innerHTML = days + ":" + hours + ":"
-  + minutes + ":" + seconds + "";
+  document.getElementById("countDown").innerHTML = days + "<font size='3' style='color: #73BA37'>D</font>:" + hours + "<font size='3' style='color: #73BA37'>H</font>:"
+  + minutes + "<font size='3' style='color: #73BA37'>M</font>:" + seconds + "<font size='3' style='color: #73BA37'>S</font>";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
