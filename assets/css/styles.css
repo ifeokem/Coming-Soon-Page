@@ -1,0 +1,120 @@
+ html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+             background: url(../img/background.jpg);
+             color: #F8F8F8;
+
+        }
+        #container{
+        	 background: rgba(0, 0, 0, 0.8);
+        	 bottom: 0;
+        	 height: 100%;
+        }
+        div{
+        	margin-right: auto;
+        	margin-left: auto;
+        }
+        .btn{
+        	background-color: #73BA37;
+			height: 60px;
+			border: 1px solid green;
+			border-radius: 0px 10px 10px 0px;
+		    text-align: center;
+		    color: white;
+		    font-weight: bold;
+        }
+
+ul{
+	  background-color: #003925;
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: #72AB97;
+	text-decoration: none;
+	padding: 14px 18px;
+}
+input{
+	background-color: black;
+	opacity: 0.4;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	border: 1px solid green;
+	border-radius: 10px 0px 0px 10px;
+	color: white;
+}
+#logoDiv{
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#logo{
+	margin-left: auto;
+	margin-right: auto;
+}
+#writeUpDiv{
+	text-align: center;
+	margin-top:5px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+	
+#countDownDiv{
+	
+	text-align: center;
+	margin-top:5px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: courier;
+	font-weight: bold;
+	font-size: 3.5em;
+	color: white;
+
+}
+table{
+	
+	text-align: center;
+	
+
+}
+#notifyDiv{
+	text-align: center;
+	margin-top:5px;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+#footer {
+	color: #72AB97;
+	margin:2px solid #72AB97; 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #003925;
+  text-align: center;
+}
+#siteName{
+	color: #73BA37;
+
+}
+
